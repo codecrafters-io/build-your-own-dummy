@@ -184,3 +184,152 @@ stages:
     # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
     marketing_md: |-
       In this stage, we'll do XYZ.
+
+  - slug: "ext1-stage1" # A identifier for this stage, needs to be unique within a course.
+
+    primary_extension_slug: "ext1"
+
+    # The name of the stage. This is shown in the course catalog, and on other course pages.
+    name: "Start with ext1"
+
+    # The difficulty of this stage.
+    #
+    # Recommended guidelines, based on how long the stage will take an experienced developer to complete:
+    #
+    # - Very Easy (< 5 minutes)
+    # - Easy (5-10 minutes)
+    # - Medium (30m-1h)
+    # - Hard (> 1h)
+    #
+    # Allowed values: "very_easy", "easy", "medium", "hard"
+    difficulty: very_easy
+
+    # The instructions for your stage. Markdown supported. Shown on the course page.
+    description_md: |-
+      In this stage, we'll do XYZ
+
+      **Example:** ABC
+
+      Your program will be executed like this:
+
+      ```bash
+      $ echo "apple" | ./your_executable.sh -E "a"
+      ```
+
+      You program must ABCD.
+
+    # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
+    marketing_md: |-
+      In this stage, we'll do XYZ.
+
+  - slug: "ext1-stage2" # A identifier for this stage, needs to be unique within a course.
+
+    primary_extension_slug: "ext1"
+
+    # The name of the stage. This is shown in the course catalog, and on other course pages.
+    name: "Finish with ext1"
+
+    # The difficulty of this stage.
+    #
+    # Recommended guidelines, based on how long the stage will take an experienced developer to complete:
+    #
+    # - Very Easy (< 5 minutes)
+    # - Easy (5-10 minutes)
+    # - Medium (30m-1h)
+    # - Hard (> 1h)
+    #
+    # Allowed values: "very_easy", "easy", "medium", "hard"
+    difficulty: very_easy
+
+    # The instructions for your stage. Markdown supported. Shown on the course page.
+    description_md: |-
+      In this stage, we'll do XYZ
+
+      **Example:** ABC
+
+      Your program will be executed like this:
+
+      ```bash
+      $ echo "apple" | ./your_executable.sh -E "a"
+      ```
+
+      You program must ABCD.
+
+    # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
+    marketing_md: |-
+      In this stage, we'll do XYZ.
+
+  - slug: "ext2-stage1" # A identifier for this stage, needs to be unique within a course.
+
+    primary_extension_slug: "ext2"
+
+    # The name of the stage. This is shown in the course catalog, and on other course pages.
+    name: "Start with ext1"
+
+    # The difficulty of this stage.
+    #
+    # Recommended guidelines, based on how long the stage will take an experienced developer to complete:
+    #
+    # - Very Easy (< 5 minutes)
+    # - Easy (5-10 minutes)
+    # - Medium (30m-1h)
+    # - Hard (> 1h)
+    #
+    # Allowed values: "very_easy", "easy", "medium", "hard"
+    difficulty: very_easy
+
+    # The instructions for your stage. Markdown supported. Shown on the course page.
+    description_md: |-
+      In this stage, we'll do XYZ
+
+      **Example:** ABC
+
+      Your program will be executed like this:
+
+      ```bash
+      $ echo "apple" | ./your_executable.sh -E "a"
+      ```
+
+      You program must ABCD.
+
+    # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
+    marketing_md: |-
+      In this stage, we'll do XYZ.
+
+  - slug: "ext2-stage2" # A identifier for this stage, needs to be unique within a course.
+
+    primary_extension_slug: "ext2"
+    secondary_extension_slugs: ["ext1"]
+
+    # The name of the stage. This is shown in the course catalog, and on other course pages.
+    name: "Finish with ext1 + ext2"
+
+    # The difficulty of this stage.
+    #
+    # Recommended guidelines, based on how long the stage will take an experienced developer to complete:
+    #
+    # - Very Easy (< 5 minutes)
+    # - Easy (5-10 minutes)
+    # - Medium (30m-1h)
+    # - Hard (> 1h)
+    #
+    # Allowed values: "very_easy", "easy", "medium", "hard"
+    difficulty: very_easy
+
+    # The instructions for your stage. Markdown supported. Shown on the course page.
+    description_md: |-
+      In this stage, we'll do XYZ
+
+      **Example:** ABC
+
+      Your program will be executed like this:
+
+      ```bash
+      $ echo "apple" | ./your_executable.sh -E "a"
+      ```
+
+      You program must ABCD.
+
+    # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
+    marketing_md: |-
+      In this stage, we'll do XYZ.
