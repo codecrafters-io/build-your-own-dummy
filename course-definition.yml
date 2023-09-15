@@ -264,7 +264,7 @@ stages:
     primary_extension_slug: "ext2"
 
     # The name of the stage. This is shown in the course catalog, and on other course pages.
-    name: "Start with ext1"
+    name: "Start with ext2"
 
     # The difficulty of this stage.
     #
