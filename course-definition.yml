@@ -87,14 +87,14 @@ marketing:
       author_description: "Senior Software Developer, CenturyLink"
       author_avatar: "https://codecrafters.io/images/external/testimonials/patrick-burris.jpeg"
       link: "https://github.com/Jumballaya"
-      text: |
+      text: |-
         I think the instant feedback right there in the git push is really cool.
         Didn't even know that was possible!
 
 extensions:
   - slug: "ext1"
     name: "Extension 1"
-    description_markdown: |
+    description_markdown: |-
       In this challenge extension you'll add [persistence][redis-persistence] support to your Redis implementation.
 
       Along the way you'll learn about Redis's [RDB file format][rdb-file-format], the [SAVE][save-command] command, and more.
@@ -105,7 +105,7 @@ extensions:
 
   - slug: "ext2"
     name: "Extension 2"
-    description_markdown: |
+    description_markdown: |-
       In this challenge extension you'll add support for the [Stream][redis-streams-data-type] data type to your Redis implementation.
 
       Along the way you'll learn about commands like [XADD][xadd-command], [XRANGE][xrange-command] and more.
