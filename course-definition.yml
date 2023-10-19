@@ -146,6 +146,14 @@ stages:
 
       You program must ABCD.
 
+      Here's a sample table:
+
+      | Column 1 Header | Column 2 Header | Column 3 Header |
+      | --------------- | --------------- | --------------- |
+      | Row 1, Col 1    | Row 1, Col 2    | Row 1, Col 3    |
+      | Row 2, Col 1    | Row 2, Col 2    | Row 2, Col 3    |
+      | Row 3, Col 1    | Row 3, Col 2    | Row 3, Col 3    |
+
     # A description of this stage that is used on the course overview page and other marketing material. Markdown supported.
     marketing_md: |-
       In this stage, we'll do XYZ.
