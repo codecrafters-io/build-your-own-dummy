@@ -115,7 +115,7 @@ extensions:
       [xrange-command]: https://redis.io/commands/xrange/
 
 stages:
-  - legacy_slug: "init" # A identifier for this stage, needs to be unique within a course.
+  - slug: "init" # A identifier for this stage, needs to be unique within a course.
 
     # The name of the stage. This is shown in the course catalog, and on other course pages.
     name: "The first stage"
@@ -160,7 +160,7 @@ stages:
     marketing_md: |-
       In this stage, we'll do XYZ.
 
-  - legacy_slug: "second" # A identifier for this stage, needs to be unique within a course.
+  - slug: "second" # A identifier for this stage, needs to be unique within a course.
 
     # The name of the stage. This is shown in the course catalog, and on other course pages.
     name: "The second stage"
@@ -195,7 +195,7 @@ stages:
     marketing_md: |-
       In this stage, we'll do XYZ.
 
-  - legacy_slug: "ext1-stage1" # A identifier for this stage, needs to be unique within a course.
+  - slug: "ext1-stage1" # A identifier for this stage, needs to be unique within a course.
 
     primary_extension_slug: "ext1"
 
@@ -232,7 +232,7 @@ stages:
     marketing_md: |-
       In this stage, we'll do XYZ.
 
-  - legacy_slug: "ext1-stage2" # A identifier for this stage, needs to be unique within a course.
+  - slug: "ext1-stage2" # A identifier for this stage, needs to be unique within a course.
 
     primary_extension_slug: "ext1"
 
@@ -269,7 +269,7 @@ stages:
     marketing_md: |-
       In this stage, we'll do XYZ.
 
-  - legacy_slug: "ext2-stage1" # A identifier for this stage, needs to be unique within a course.
+  - slug: "ext2-stage1" # A identifier for this stage, needs to be unique within a course.
 
     primary_extension_slug: "ext2"
 
@@ -306,7 +306,7 @@ stages:
     marketing_md: |-
       In this stage, we'll do XYZ.
 
-  - legacy_slug: "ext2-stage2" # A identifier for this stage, needs to be unique within a course.
+  - slug: "ext2-stage2" # A identifier for this stage, needs to be unique within a course.
 
     primary_extension_slug: "ext2"
     secondary_extension_slugs: ["ext1"]
