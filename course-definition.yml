@@ -115,7 +115,7 @@ extensions:
       [xrange-command]: https://redis.io/commands/xrange/
 
 stages:
-  - slug: "yz1" # A identifier for this stage, needs to be unique within a course.
+  - slug: "ah7" # A identifier for this stage, needs to be unique within a course.
 
     # The name of the stage. This is shown in the course catalog, and on other course pages.
     name: "The first stage"
