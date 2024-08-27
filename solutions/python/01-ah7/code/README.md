@@ -15,8 +15,7 @@ The entry point for your `<fill_in_executable_name>` implementation is in
 pass the first stage:
 
 ```sh
-git add .
-git commit -m "pass 1st stage" # any msg
+git commit -am "pass 1st stage" # any msg
 git push origin master
 ```
 
