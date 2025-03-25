@@ -49,6 +49,11 @@ short_description_md: |-
 # The percentage of users who complete your course. We'll calculate this automatically in the future, safe to ignore for now.
 completion_percentage: 15
 
+# The message shown to users when they complete your course. Markdown supported.
+completion_message_markdown: |-
+  GG! You've completed all stages of this course. 🎉
+  We recommend you to take a break and celebrate your achievement!
+
 # The languages that your course supports.
 languages:
   - slug: "go"
