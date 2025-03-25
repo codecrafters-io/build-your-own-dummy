@@ -4,7 +4,7 @@ Study and uncomment the relevant code:
 
 ```go
 // Uncomment this to pass the first stage
-ok = bytes.ContainsAny(line, pattern)
+fmt.Println("1")
 ```
 
 Push your changes to pass the first stage:
