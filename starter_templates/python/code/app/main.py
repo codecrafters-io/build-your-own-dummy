@@ -4,7 +4,7 @@ def main():
     # You can use print statements as follows for debugging, they'll be visible when running tests.
     print("Logs from your program will appear here!", file=sys.stderr)
 
-    # Uncomment this block to pass the first stage
+    # Uncomment the code below to pass the first stage the first stage
     # print("1")
     # exit(0)
 
